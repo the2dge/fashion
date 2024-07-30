@@ -10,8 +10,11 @@
     <p>This is a test paragraph. It should adjust to the device width.</p>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    console.log('Viewport width:', window.innerWidth);
-  });
+  console.log('Viewport width:', window.innerWidth);
+  console.log('Device pixel ratio:', window.devicePixelRatio);
+  console.log('Screen width:', screen.width);
+  console.log('User Agent:', navigator.userAgent);
+});
 </script>
 </body>
 </html>
