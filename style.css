@@ -229,6 +229,7 @@
 /* --- Item Detail Styles --- */
 .item-detail-container {
     display: flex;
+    flex-direction: column;
     gap: 40px;
     max-width: 1000px;
     margin: auto;
