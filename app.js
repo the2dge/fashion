@@ -297,7 +297,8 @@ $('#side-cart-items').on('click', '.delete-cart-item', function () {
     $('main').on('click', '.showroom-card, .product-card', function() {
         const itemId = $(this).data('id');
         if (itemId) {
-            renderItemDetail(itemId);
+           // renderItemDetail(itemId);
+            showWrapper('content');
         }
     });
     
