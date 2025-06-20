@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p001",
+    "name": "Vintage Wash Tee",
+    "price": 1280,
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p002",
+    "name": "Urban Explorer Yellow",
+    "price": 3500,
+    "image": "image/products/yellow_shirt.jpg"
+  },
+  {
+    "id": "p003",
+    "name": "Retro Graphic Hoodie",
+    "price": 2800,
+    "image": "image/products/navy_polo_youngman.jpg"
+  },
+  {
+    "id": "p004",
+    "name": "Classic Denim Jeans",
+    "price": 2200,
+    "image": "image/products/classic_navy_polo.jpg"
+  },
+  {
+    "id": "p005",
+    "name": "Street-Smart Cargos",
+    "price": 1980,
+    "image": "image/products/yellow_shirt.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "Essential Crewneck Sweatshirt",
+    "price": 1750,
+    "image": "image/products/white_shirt.jpg"
+  },
+  {
+    "id": "p007",
+    "name": "Techwear Windbreaker",
+    "price": 4200,
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "Minimalist White Sneakers",
+    "price": 2600,
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "Faded Glory Cap",
+    "price": 850,
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p010",
+    "name": "Cityscape Beanie",
+    "price": 700,
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p011",
+    "name": "Nomad Utility Vest",
+    "price": 2300,
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p012",
+    "name": "Skate-Ready Chinos",
+    "price": 1800,
+    "image": "image/products/polo_yellow.jpg"
+  }
+]

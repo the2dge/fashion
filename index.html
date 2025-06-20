@@ -1,15 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>A Fashion Shop</title>
-	<link rel="icon" type="image/png" sizes="512x512" href="wardrobe.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO Website </title>
+    <link rel="icon" type="image/png" href="image/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="navbar">
+  <div class="navbar-container">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="image/logo.png" alt="Shop Logo">
+    </div>
 
-<iframe src="https://script.google.com/macros/s/AKfycbzlJJoY7gA9shkAYY2CbqGcOltEQWltH9OWSnVkmxPSscMqDMfLIhIXsKojHR0OiLS1kQ/exec" width="100%" height="840"></iframe>
+ 
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#" id="nav-product">所有精選</a></li>
+        <li><a href="#" id="nav-about">關於EDGE</a></li>
+        <li><a href="#" id="nav-member">EDGE會員</a></li>
+        <li><a href="#" id="nav-contact">聯絡THE EDGE</a></li>
+      </ul>
+    </nav>
+          <div class="cart-icon-container">
+        <button id="cart-icon">
+          <img src="image/shopping-cart.png" alt="Shopping Cart">
+          <span id="cart-item-count">0</span>
+        </button>
+      </div>
+
+  </div>
+
+</header>
+
+    <main class="main-body">
+        <div id="showroom-wrapper" class="wrapper active">
+            <div class="showroom-grid">
+            </div>
+        </div>
+        <div id="content-wrapper" class="wrapper">
+
+            <section id="product-container">
+
+                <div class="product-grid">
+                </div>
+            </section>
+
+            <section id="about-container">
+            </section>
+        </div>
+
+        <div id="item-wrapper" class="wrapper">
+        </div>
+
+        <div id="checkout-wrapper" class="wrapper">
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <img src="image/logo.png" width="100px">
+            <p>&copy; [2025] [THE EDGE]. All rights reserved.</p>
+            <p>非會員訂單查詢: 首先進入 <a href="https://line.me/ti/p/~@602ncewj" style="text-decoration: none; color:#876">THE EDGE</a> LINE官方帳號，然後輸入 <span style="color:black">&nbsp訂單查詢: 09xxxxxxx</span></p>
+            <p>客服信箱： service@gmail.com | [客服專線： <a href="tel:0987654321">0936134790</a>]</p>
+            <p>[台北市內湖區xx路xxx號]</p>
+            <p>營業人統一編號： 987654321</p>
+            </div>
+                <p style="text-align:center; margin-top: 10px;">
+                      <a href="https://the2dge.github.io/clothshop/backend" 
+                         style="background: #f0f0f0; color: white; padding: 10px 25px; border-radius: 5px; text-decoration: none; font-weight: bold;" 
+                         >
+                         EDGE管理員
+                      </a>
+         </p>
+    </footer>
+
+    <aside id="side-cart" class="side-cart">
+        <div class="side-cart-header">
+            <h3>🛒 🛒 購物車</h3>
+            <button id="close-cart-btn">X</button>
+        </div>
+        <div id="side-cart-items" class="side-cart-items">
+            </div>
+        <div class="side-cart-footer">
+            <p>總金額: <span id="cart-total">$0.00</span></p>
+            <button id="checkout-btn">去買單</button>
+        </div>
+    </aside>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 
 </body>
 </html>

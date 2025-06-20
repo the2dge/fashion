@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p001",
+    "name": "Classic Yellow Polo Tee",
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p002",
+    "name": "Urban Explorer Yellow",
+    "image": "image/products/yellow_shirt.jpg"
+  },
+  {
+    "id": "p003",
+    "name": "Retro Navy Polo Tee",
+    "image": "image/products/navy_polo_youngman.jpg"
+  },
+  {
+    "id": "p004",
+    "name": "Vintage Wash Tee",
+    "image": "image/products/classic_navy_polo.jpg"
+  },
+  {
+    "id": "p005",
+    "name": "Street-Smart Cargos",
+    "image": "image/products/navy_polo.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "Essential Crewneck Sweatshirt",
+    "image": "image/products/green_polo.jpg"
+  },
+  {
+    "id": "p007",
+    "name": "Techwear Windbreaker",
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "Minimalist White Sneakers",
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "Faded Glory Cap",
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p010",
+    "name": "Cityscape Beanie",
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p011",
+    "name": "Nomad Utility Vest",
+    "image": "image/products/polo_yellow.jpg"
+  },
+  {
+    "id": "p012",
+    "name": "Skate-Ready Chinos",
+    "image": "image/products/polo_yellow.jpg"
+  }
+]
