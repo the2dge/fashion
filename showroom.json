@@ -2,7 +2,7 @@
   {
     "id": "p001",
     "name": "Classic Yellow Polo Tee",
-    "image": "image/products/polo_yellow.jpg"
+    "image": "image/products/item1.gif"
   },
   {
     "id": "p002",
@@ -16,7 +16,7 @@
   },
   {
     "id": "p004",
-    "name": "Vintage Wash Tee",
+    "name": "Retro Navy Polo Tee",
     "image": "image/products/classic_navy_polo.jpg"
   },
   {
