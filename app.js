@@ -294,11 +294,14 @@ $('#side-cart-items').on('click', '.delete-cart-item', function () {
 
     // Delegated click listener for dynamically created items
     // Listens on a static parent element for clicks on children matching the selector
-    $('main').on('click', '.showroom-card, .product-card', function() {
+        $('main').on('click', '.showroom-card, .product-card', function () {
         const itemId = $(this).data('id');
-        if (itemId) {
-           // renderItemDetail(itemId);
-            showWrapper('content');
+        if (!itemId) return;
+
+        if ($(this).hasClass('showroom-card')) {
+            renderProducts();  // load product grid and showWrapper('content') inside
+        } else if ($(this).hasClass('product-card')) {
+            renderItemDetail(itemId);
         }
     });
     
