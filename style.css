@@ -120,7 +120,7 @@
     display: grid;
     /* Creates two equal-width columns */
     grid-template-columns: repeat(2, 1fr);
-    gap: 2px; /* Adjust gap between images as needed */
+    gap: 0px; /* Adjust gap between images as needed */
 }
 
 /* To maintain a consistent shape, we can set an aspect ratio */
