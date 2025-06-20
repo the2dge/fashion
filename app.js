@@ -171,7 +171,7 @@ async function renderItemDetail(itemId) {
         // Close detail view
         $('.close-detail-btn').on('click', function () {
             console.log('I am CLOSE button in itemWrapper!');
-            showWrapper('showroom');
+            renderProducts();
         });
 
         // Add to cart
