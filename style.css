@@ -3,6 +3,7 @@
 .navbar-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; }
 .logo img { max-height: 50px; }
 @media(max-width:560px){
+    .navbar-container{width: 80%}
     .logo img { display: none; }
     .navbar{background: transparent; border: 0;position: fixed; z-index: 1000;align-content: space-evenly;}
 }
@@ -27,6 +28,7 @@
   gap: 15px;
 }
 /* Nav links (desktop only) */
+.nav-links{margin-right: 10%;width: 75%}
 .nav-links ul {
   list-style: none;
   display: flex;
@@ -318,5 +320,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+#checkout-wrapper{padding-top: 70px}
+.checkout-item {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.checkout-item div{width: 75%}
+.checkout-item img{width:20%; height: 20%}
+.checkout-items {
     margin-bottom: 20px;
 }
