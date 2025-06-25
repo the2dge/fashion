@@ -3,7 +3,7 @@
     "name": "Vintage Wash Tee",
     "price": 1280,
     "image": "image/products/polo_yellow.jpg",
-    "description": "A classic tee made from 100% heavyweight cotton, treated with a special vintage wash for a soft, worn-in feel from day one. Perfect for any casual occasion.",
+    "description": "這款經典T卹採用100%重磅純棉製成，經特殊復古水洗處理，帶來柔軟做舊感，輕鬆應付各種休閒場合。",
     "specs": "100% Cotton. Machine wash cold. Tumble dry low.",
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["Washed Black", "Faded Blue", "Olive"]
@@ -12,7 +12,7 @@
     "name": "Urban Explorer Yellow",
     "price": 3500,
     "image": "image/products/yellow_shirt.jpg",
-    "description": "Urban Explorer Yellow refers to a yellow-colored shirt, potentially a t-shirt or button-down shirt, designed with a theme or style associated with urban exploration. A shirt with a vintage map print, or a versatile button-down designed for urban exploration aesthetics. ",
+    "description": "「城市探險黃」指的是一件黃色襯衫，可能是T卹或羈扣襯衫，其設計主題或風格與城市探險有關。例如，印有復古地圖的襯衫，或專為城市探險美學設計的百搭羈扣襯衫。",
     "specs": "100% Nylon Shell. Polyester lining. Do not bleach.",
     "sizes": ["M", "L", "XL"],
     "colors": ["Black", "Navy"]
