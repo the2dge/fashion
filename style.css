@@ -3,6 +3,7 @@
 .navbar-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; }
 .logo img { max-height: 50px; }
 @media(max-width:560px){
+    .nav-links ul li:first{width: 30%}
     .navbar-container{width: 80%}
     .logo img { display: none; }
     .navbar{background: transparent; border: 0;position: fixed; z-index: 1000;align-content: space-evenly;}
